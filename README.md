@@ -61,30 +61,30 @@ This project implements a secure Notes API using Go, following a strict Test-Dri
 ### 🌐 Fase 3: Capa HTTP (Handlers & Rutas)
 
 #### Tarea 3.1: Register Handler (POST /auth/register)
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestRegister_Success`
-  - [ ] `TestRegister_InvalidInput`
-  - [ ] `TestRegister_Duplicate`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `AuthHandler` struct
-  - [ ] `Register` method
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestRegister_Success`
+  - [x] `TestRegister_InvalidInput`
+  - [x] `TestRegister_Duplicate`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `AuthHandler` struct
+  - [x] `Register` method
 
 #### Tarea 3.2: Login Handler (POST /auth/login)
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestLogin_Success`
-  - [ ] `TestLogin_UserNotFound`
-  - [ ] `TestLogin_BadPassword`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `Login` method
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestLogin_Success`
+  - [x] `TestLogin_UserNotFound`
+  - [x] `TestLogin_BadPassword`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `Login` method
 
 #### Tarea 3.3: Middleware de Autenticación
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestAuthMiddleware_NoHeader`
-  - [ ] `TestAuthMiddleware_BadFormat`
-  - [ ] `TestAuthMiddleware_InvalidToken`
-  - [ ] `TestAuthMiddleware_Success`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `WithAuth` function
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestAuthMiddleware_NoHeader`
+  - [x] `TestAuthMiddleware_BadFormat`
+  - [x] `TestAuthMiddleware_InvalidToken`
+  - [x] `TestAuthMiddleware_Success`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `WithAuth` function
 
 ### 📝 Fase 4: Notes (CRUD Rápido)
 
