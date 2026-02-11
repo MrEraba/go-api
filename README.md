@@ -38,25 +38,25 @@ This project implements a secure Notes API using Go, following a strict Test-Dri
 ### 💾 Fase 2: Capa de Persistencia (Store)
 
 #### Tarea 2.1: Modelo de Usuario y Validación
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestUser_Validate_Success`
-  - [ ] `TestUser_Validate_BadEmail`
-  - [ ] `TestUser_Validate_ShortPassword`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `User` struct
-  - [ ] `Validate` method
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestUser_Validate_Success`
+  - [x] `TestUser_Validate_BadEmail`
+  - [x] `TestUser_Validate_ShortPassword`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `User` struct
+  - [x] `Validate` method
 
 #### Tarea 2.2: User Store (Repository Pattern)
-- [ ] **Paso 1: Write Tests (RED - Integration)**
-  - [ ] `TestCreateUser_HappyPath`
-  - [ ] `TestCreateUser_DuplicateEmail`
-  - [ ] `TestGetByEmail_Found`
-  - [ ] `TestGetByEmail_NotFound`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] SQL connection
-  - [ ] `INSERT` query
-  - [ ] `SELECT` query
-  - [ ] Handle unique constraint
+- [x] **Paso 1: Write Tests (RED - Integration)**
+  - [x] `TestCreateUser_HappyPath`
+  - [x] `TestCreateUser_DuplicateEmail`
+  - [x] `TestGetByEmail_Found`
+  - [x] `TestGetByEmail_NotFound`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] SQL connection
+  - [x] `INSERT` query
+  - [x] `SELECT` query
+  - [x] Handle unique constraint
 
 ### 🌐 Fase 3: Capa HTTP (Handlers & Rutas)
 
