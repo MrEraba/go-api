@@ -9,6 +9,11 @@ import (
 
 var Secret = []byte("default-secret")
 
+// SetSecret updates the global JWT secret
+func SetSecret(secret string) {
+	Secret = []byte(secret)
+}
+
 // Claims embeds standard claims
 type Claims struct {
 	jwt.RegisteredClaims
