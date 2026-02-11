@@ -8,32 +8,32 @@ This project implements a secure Notes API using Go, following a strict Test-Dri
 
 ### 🛠️ Fase 0: Configuración del Entorno de Pruebas
 
-- [ ] **Tarea 0.1: Project Layout & Test Infrastructure**
-  - [ ] `go mod init`
-  - [ ] Create directories: `cmd/api`, `internal/auth`, `internal/store`, `internal/api`
-  - [ ] Create `Makefile`
+- [x] **Tarea 0.1: Project Layout & Test Infrastructure**
+  - [x] `go mod init`
+  - [x] Create directories: `cmd/api`, `internal/auth`, `internal/store`, `internal/api`
+  - [x] Create `Makefile`
 
 ### 🛡️ Fase 1: Módulo de Autenticación (Core Logic)
 
 #### Tarea 1.1: Servicio de Hashing de Contraseñas (Bcrypt)
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestHashPassword_Structure`
-  - [ ] `TestComparePassword_Success`
-  - [ ] `TestComparePassword_Failure`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `Hash` function
-  - [ ] `Compare` function
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestHashPassword_Structure`
+  - [x] `TestComparePassword_Success`
+  - [x] `TestComparePassword_Failure`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `Hash` function
+  - [x] `Compare` function
 
 #### Tarea 1.2: Servicio JWT (Generación y Validación)
-- [ ] **Paso 1: Write Tests (RED)**
-  - [ ] `TestGenerateToken_ContainsClaims`
-  - [ ] `TestValidateToken_Valid`
-  - [ ] `TestValidateToken_Expired`
-  - [ ] `TestValidateToken_TamperedSignature`
-- [ ] **Paso 2: Implement (GREEN)**
-  - [ ] `Claims` struct
-  - [ ] `GenerateToken`
-  - [ ] `ValidateToken`
+- [x] **Paso 1: Write Tests (RED)**
+  - [x] `TestGenerateToken_ContainsClaims`
+  - [x] `TestValidateToken_Valid`
+  - [x] `TestValidateToken_Expired`
+  - [x] `TestValidateToken_TamperedSignature`
+- [x] **Paso 2: Implement (GREEN)**
+  - [x] `Claims` struct
+  - [x] `GenerateToken`
+  - [x] `ValidateToken`
 
 ### 💾 Fase 2: Capa de Persistencia (Store)
 
