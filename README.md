@@ -89,12 +89,12 @@ This project implements a secure Notes API using Go, following a strict Test-Dri
 ### 📝 Fase 4: Notes (CRUD Rápido)
 
 #### Tarea 4.1: Notes Store (Integration)
-- [ ] `TestCreateNote`
-- [ ] `TestListNotes_Isolation`
+- [x] `TestCreateNote`
+- [x] `TestListNotes_Isolation`
 
 #### Tarea 4.2: Notes Handlers (Unit with Mock)
-- [ ] `TestCreateNote_Authorized`
-- [ ] `TestGetNotes_Format`
+- [x] `TestCreateNote_Authorized`
+- [x] `TestGetNotes_Format`
 
 ---
 
